@@ -1,0 +1,305 @@
+/* Create two unequal columns that floats next to each other */
+
+/* Left column *//* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.leftbar {   
+float: right;
+width: 70%;
+height: 100%;
+margin-top: 1em ;
+}
+
+.leftbar h1 {
+font-size: 20px;
+border-bottom: 1px solid #eee;  
+text-transform: uppercase;    
+margin-bottom: 1em;
+}
+
+.leftbar .fa { 
+margin: 0 3px 0 0;
+}
+
+.Column {
+background-color: white;
+overflow: auto;
+padding: 10px;
+margin-bottom: 0;
+margin-left: 5px ;
+}
+
+.col-container {
+display: table;
+margin-top: 0;
+margin-bottom:0.6em ;
+}
+
+
+.symbol p:before { 
+font-family: FontAwesome;
+display: inline-block;
+line-height: 1em; 
+} 
+
+.symbol p { 
+margin-top: 0;
+margin-bottom:0 ;
+}
+
+#location p:before{ 
+content: "\f041";
+padding-right: 6px;
+}
+#list p:before{  
+content: "\f046" ;
+padding-right: 3px;
+} 
+/* #jobTitle p:before{
+content: "\f005" ;
+padding-right: 6px;
+} */
+#date p:before{
+content: "\f274" ;
+padding-right: 6px;
+}
+#location {
+font-size: 0.7em;
+margin-bottom: 0.5em; 
+}
+#list {  
+font-size: 0.6em; 
+font-weight: 300; 
+text-align: justify;
+background: #fff;
+letter-spacing: 0;
+} 
+#date{  
+font-weight: 400;
+font-size: 0.6em;
+}
+#jobTitle {
+font-style: normal;
+font-weight: 900;
+font-size: 0.8em;
+}
+
+#company {
+font-style: italic;
+font-weight: 400;
+font-size: 0.8em;
+/* text-decoration: underline; */
+}
+#universityName ::before{
+content: "\f19c" ;
+padding-right: 3px;
+
+}
+
+#universityName{
+font-weight: 400;
+font-size: 0.8em;
+
+}
+
+#speciality {
+font-style: italic;
+font-weight: 300;
+font-size: 0.8em;
+
+}
+
+#StudyProram{
+font-style: normal;
+font-weight: 900;
+font-size: 0.8em;
+
+}
+#sSkills a{
+font-size: 0.6em;
+border: 0.5px solid rgb(211, 211, 211);
+border-radius:5px; 
+color:#3b3b3b;
+display:inline-block;
+padding:2px;
+margin-bottom: 0; 
+}
+.col1 {
+display: table-cell;
+padding: 2px;
+width: 8%;
+background: #fff;
+
+}
+
+
+.col2 {
+display: table-cell;
+padding: 2px;
+width: 35%;
+background: #fff;
+}
+
+
+/* Right column *//* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+.rightbar {
+float: left;
+width: 30%;
+margin-top: 0;   
+
+}
+
+/* .rightbar h1{
+line-height: 0.5;
+} */
+#sideCard{
+box-shadow:2px 2px 5px #ddd;
+
+}
+.card {
+background-color: #fff;
+padding: 10px;
+
+
+}
+.card h1 {
+line-height: 1.2em;
+color: black;
+font-size: 20px;
+text-transform: uppercase; 
+/* border-bottom: 1px solid rgb(224, 219, 219);  */
+}
+
+#about {
+background: #555;
+margin: 0; 
+padding: 10px;
+box-shadow:0 2px 5px 0 #555;     
+}
+#about h1{
+font-weight: 600;
+font-size: 25pt;
+font-family: 'Ubuntu';
+line-height: 0.5;
+color: rgb(255, 255, 255);
+text-align: left;
+margin: 0;
+margin-top: 0.5em;
+text-transform: uppercase;    
+}
+#about a{
+  font-size: 0.75em;
+  /* border: 0.5px solid #d3d3d3; */
+  font-weight: 400;
+  border-radius:4px; 
+  color:#333;
+  display:inline-block;
+  padding:2px;
+  margin-bottom: 0;
+  margin-top: 0; 
+  background: #999;
+
+}
+.col3 {
+  display: inline-block; 
+  }
+  
+
+#contact {
+display: block;
+color: #ffffff;
+font-family: 'Ubuntu';
+width: 100%;
+
+}
+
+#contact .fa{
+margin: 0 0.5em 0 0;
+/* font-size: 1em; */
+}
+
+
+#contact li{
+list-style-type: none;
+text-transform: none; 
+/* text-align: justify;    */    
+}
+
+#contact ul{
+letter-spacing: 0;    
+font-size: 0.75em;
+font-weight: 400;
+line-height: 1.5em; 
+margin-left: 0;
+text-indent: -1em; 
+
+}
+
+
+#tSkills li  {
+background: #c1c4c4;
+border-radius:5px; 
+color:#3b3b3b;
+display:inline-block;
+list-style:none;
+margin:5px 5px 0 0px;
+padding:5px;
+text-align:justify;
+font-size: 0.6em;
+
+}
+.col4 {
+display: table-cell;  
+width: 3%;
+}
+
+.col4 p{
+margin: 0;
+padding-top: 10px;
+padding-right: 0px;
+padding-bottom: 10px;
+padding-left: 25px;
+font-size: 0.6em;
+}
+
+.icon {
+background-position: 0px 50%;
+background-size: 25px 25px;
+background-repeat: no-repeat;    
+}
+
+
+.languages {
+/* margin-left: auto;
+margin-right: auto;      */
+width: 80%;
+padding: 0;
+font-size: 0.6em;     
+}
+
+.progress-bar {
+width: 100%;
+background-color: #e0e0e0;
+padding: 1px;
+border-radius: 3px;
+margin-bottom: 0.5em;
+}
+
+.progress-bar-fill {
+display: block;
+height: 8px;
+background-color: #515a58;
+border-radius: 2px;
+
+}
+
+
+/* Footer */
+#disclaimer {
+text-align: center;
+font-size: 0.55em; 
+font-weight: 300; 
+text-align: justify;
+color: #555;
+letter-spacing: 0;
+}
+
+
